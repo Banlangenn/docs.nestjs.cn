@@ -236,7 +236,7 @@ handleEvent(client: Client, data: unknown): WsResponse<unknown> {
 
 ## 适配器
 
-WebSockets模块与平台无关，因此，您可以通过使用 WebSocketAdapter 接口来创建自己的库（甚至是原声实现）。此接口强制实施下表中描述的几种方法：
+WebSockets模块与平台无关，因此，您可以通过使用 WebSocketAdapter 接口来创建自己的库（甚至是原生实现）。此接口强制实施下表中描述的几种方法：
 
 |                      |                                  |
 | :------------------- | :------------------------------- |
